@@ -1,5 +1,5 @@
 # Tools-ConnectionStringTester
-Connection string tester application in .NET Core
+Connection string tester application in .NET 4.6.1
 
 
 # Commands supported:
