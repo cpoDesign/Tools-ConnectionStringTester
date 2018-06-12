@@ -18,7 +18,7 @@ namespace Tester
         //[Value(0, MetaName = "offset", HelpText = "File offset.")]
         //public long? Offset { get; set; }
 
-        [Option('c', Default = false, HelpText = "Test Connecto to database.")]
+        [Option('c', Default = false, HelpText = "Test the connection to the database.")]
         public bool ConnectionTester { get; internal set; }
     }
 }
