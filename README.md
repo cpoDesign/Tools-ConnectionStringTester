@@ -26,7 +26,7 @@ Used to display application version.
 
 #Example of the configuration for app config:
 ```XML
- <add name="ConnectionStringUnderTest" connectionString="Data Source=localhost;Initial Catalog=ci-CivicaAt;Integrated Security=True" />
+ <add name="ConnectionStringUnderTest" connectionString="Data Source=localhost;Initial Catalog=myDb;Integrated Security=True" />
  <add key="SqlCommand" value="select count(*) from (select * from dbo.TestingTable) as underTest" />
 ```
 https://gist.github.com/cpoDesign/248c2b053054bef7ee282011ab68cc5c
